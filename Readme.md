@@ -16,7 +16,7 @@ Also requires graphviz:
 ## Example
 
 ```
-$ cd myproject && component graph --out graph.png
+$ cd myproject && component graph && open out.png
 ```
 
 ## Usage
