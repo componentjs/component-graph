@@ -11,6 +11,12 @@ Also requires graphviz:
 
     $ brew install grapviz
 
+## Example
+
+```
+$ cd myproject && component graph --out graph.png
+```
+
 ## Usage
 
 ```
