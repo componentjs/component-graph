@@ -1,0 +1,19 @@
+{
+  "name": "component-graph",
+  "version": "0.0.1",
+  "description": "Dependency graphs for component(1)",
+  "keywords": ["component", "graph", "dep", "deps", "dependencies"],
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "repository": { "type": "git", "url": "git://github.com/visionmedia/component-graph.git" },
+  "dependencies": {
+    "commander": "1.1.1",
+    "component": "0.10.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "bin": {
+    "component-graph": "bin/component-graph"
+  }
+}
