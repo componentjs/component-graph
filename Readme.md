@@ -3,6 +3,8 @@
 
   Dependency graphs for component(1).
 
+  ![](http://f.cl.ly/items/2H0K2h0I0B460V0A2G3n/dot.png)
+
 ## Installation
 
     $ npm install -g component-graph
