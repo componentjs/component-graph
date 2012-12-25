@@ -1,4 +1,3 @@
-
 # component-graph
 
   Dependency graphs for component(1).
@@ -11,7 +10,7 @@
 
 Also requires graphviz:
 
-    $ brew install grapviz
+    $ brew install graphviz
 
 ## Example
 
