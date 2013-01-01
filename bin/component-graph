@@ -94,3 +94,5 @@ stream.write('\n');
 graph(tree, stream);
 stream.write('}\n');
 stream.end();
+
+proc.stderr.pipe(process.stderr);
