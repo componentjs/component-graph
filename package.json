@@ -1,6 +1,6 @@
 {
   "name": "component-graph",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dependency graphs for component(1)",
   "keywords": ["component", "graph", "dep", "deps", "dependencies"],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
