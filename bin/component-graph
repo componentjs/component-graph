@@ -14,6 +14,7 @@ var program = require('commander')
 // parse argv
 
 program
+   .option('-d, --depth <depth>', 'lookup depth [1|2|3]')
    .option('-t, --type <name>', 'graph type [neato|twopi|fdp|dot]', 'dot')
    .option('-f, --format <name>', 'set output format [png]', 'png')
    .option('-o, --out <path>', 'output to the <path> [out.png]', 'out.png')
