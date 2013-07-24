@@ -14,7 +14,7 @@ var program = require('commander')
 // parse argv
 
 program
-   .option('-t, --type <name>', 'graph type [neato|twopi|fdp|dot]', 'dot')
+   .option('-t, --type <name>', 'graph type [neato|twopi|fdp|circo|dot]', 'dot')
    .option('-f, --format <name>', 'set output format [png]', 'png')
    .option('-o, --out <path>', 'output to the <path> [out.png]', 'out.png')
    .parse(process.argv);
