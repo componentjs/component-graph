@@ -42,6 +42,9 @@ function tree(file, paths, depth){
   // label
   node.label = conf.name;
 
+  // flag local
+  node.local = !conf.repo;
+
   // --depth n
   if (++depth > program.depth) return node;
 
@@ -65,9 +68,13 @@ function tree(file, paths, depth){
  */
 
 function graph(node, stream) {
+  if (node.local) stream.write('  "' + node.label + '" [color=blue]');
   if (node.nodes) {
     node.nodes.forEach(function(dep){
-      stream.write('  "' + node.label + '" -> "' + dep.label + '" [style=dotted];\n');
+      stream.write('  "' + node.label + '"');
+      stream.write(' -> "' + dep.label + '"');
+      stream.write(' [style=dotted]');
+      stream.write(';\n');
       graph(dep, stream);
     });
   }
